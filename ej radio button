@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html>
+<head>
+     <title> clima </title>
+<body>
+ <form method ="Get" action ="http://www.aemet.es/es/buscador">
+    ¿Donde quieres ver el clima?
+    <input type ="radio" id="madrid" name="str" value="Madrid">
+     <label for="madrid">Madrid</label><br>
+     <input type ="radio" id="Sevilla" name="str" value="Sevilla">
+     <label for="Sevilla">Sevilla</label><br>
+     <input type ="radio" id="Barcelona" name="str" value="Barcelona">
+     <label for=" Barcelona">Barcelona</label><br>
+     <input type ="Submit" value ="enviar"/>
+     
+     
+        
+
+
+</form>
+</body>
+</head>
+</html>
